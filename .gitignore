@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets — never commit API keys
+.env
+.env.*
+!.env.example
+*.key
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# OS
+desktop.ini
+
+# Generated dataset (deterministic — re-create with dataset/generate_dataset.py)
+dataset/expanded/
+
+# Local logs / scratch
+*.log
+logs/
+scratch/
+tmp/
+
+# ngrok / tunneling
+ngrok.exe
+.ngrok2/
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml

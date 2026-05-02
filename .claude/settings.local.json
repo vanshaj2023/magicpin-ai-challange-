@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(GEMINI_API_KEY=\"AIzaSyBDU9I5Rz15C6crf12VpKAThbmZYtZbhkA\" GEMINI_MODEL=\"gemini-2.5-flash-lite\" python scripts/build_submission.py --resume --pace 5)",
+      "Bash(python -c ' *)",
+      "Bash(GEMINI_API_KEY=\"AIzaSyBDU9I5Rz15C6crf12VpKAThbmZYtZbhkA\" GEMINI_MODEL=\"gemini-flash-latest\" python scripts/build_submission.py --resume --pace 5)",
+      "Bash(GEMINI_API_KEY=\"AIzaSyA5DuYrc_SvN3mCYgEUwXTKqJibBUjugiA\" GEMINI_MODEL=\"gemini-flash-latest\" python scripts/build_submission.py --resume --pace 5)",
+      "Bash(GEMINI_API_KEY=\"AIzaSyD8DdXlBbVyWBcQNuFiEskuOZ6q4FWdmMk\" GEMINI_MODEL=\"gemini-flash-latest\" python scripts/build_submission.py --resume --pace 5)",
+      "Bash(GEMINI_API_KEY=\"AIzaSyCkN39KEr-3r2EaH2Ek74L6P8FSlbSNtAM\" GEMINI_MODEL=\"gemini-flash-latest\" python scripts/build_submission.py --resume --pace 5)",
+      "Bash(python scripts/fill_t28_t30.py)"
+    ]
+  }
+}
